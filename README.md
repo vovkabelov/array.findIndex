@@ -1,1 +1,2 @@
 # array.findIndex
+[![Coverage Status](https://coveralls.io/repos/github/vovkabelov/array.findIndex/badge.svg?branch=master&service=github)](https://coveralls.io/github/vovkabelov/array.findIndex?branch=master)
