@@ -1,10 +1,10 @@
 var assert = require("assert");
 
-Array.prototype.find = null;
+Array.prototype.findIndex = null;
 require("../src/array-find-index-polyfill.js");
 
 
-describe("Array.prototype.find", function() {
+describe("Array.prototype.findIndex", function() {
     var fruits = ["banana", "apple", "peach", "mango"];
     var sparseArray = ["apple", , undefined, "peach"];
     var arrayLikeObject = {0: "banana", 1: "apple", 2: "peach", 3: "mango", length: 4};
@@ -25,7 +25,7 @@ describe("Array.prototype.find", function() {
         });
     });
 
-    it("Should be undefined if element not found", function() {
+    it("Should be return -1 if element not found", function() {
         assert.equal(
             fruits.findIndex(function(fruit) {
                 return fruit === "plum";

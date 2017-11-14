@@ -17,7 +17,7 @@
             for (var i = 0; i < arrLength; i++) {
                 if (predicate.call(thisArg, this[i], i, this)) {
                     index = i;
-                    return;
+                    break;
                 }
             }
 
