@@ -24,8 +24,8 @@ that satisfies the provided testing function. Otherwise -1 is returned.
 
 ## Performance
 Testing in Chrome 61.0.3163 / Mac OS X 10.13.0  
-**Native** 400,642 Ops/sec   
-**Polyfill** 2,240,624 Ops/sec  
+**Native** 431,077 Ops/sec   
+**Polyfill** 2,289,661 Ops/sec  
 
 See [https://jsperf.com/array-prototype-find-index-polyfill](https://jsperf.com/array-prototype-find-index-polyfill)
 
