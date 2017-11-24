@@ -1,7 +1,7 @@
 {
   "name": "array.prototype.findIndex",
-  "version": "v1.0.0",
-  "description": "Array.prototype.findIndex polyfill.",
+  "version": "v1.0.1",
+  "description": "Lightweight Array.prototype.findIndex Polyfill. ES5. IE9+",
   "main": "src/array-find-index-polyfill.js",
   "scripts": {
     "test": "mocha",
