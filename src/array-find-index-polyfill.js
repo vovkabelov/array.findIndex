@@ -4,7 +4,7 @@
     if (typeof Array.prototype.findIndex !== "function") {
         Array.prototype.findIndex = function(predicate, thisArg) {
             if (this === null) {
-                throw new TypeError('Cannot read property \'find\' of null');
+                throw new TypeError('Cannot read property \'findIndex\' of null');
             }
 
             if (typeof predicate !== "function") {

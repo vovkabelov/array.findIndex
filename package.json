@@ -1,6 +1,6 @@
 {
   "name": "array.prototype.findIndex",
-  "version": "0.1.0",
+  "version": "v1.0.0",
   "description": "Array.prototype.findIndex polyfill.",
   "main": "src/array-find-index-polyfill.js",
   "scripts": {
@@ -17,11 +17,12 @@
   },
   "keywords": [
     "array",
-    "find",
+    "findIndex",
     "polyfill",
     "js",
     "ES6",
-    "ES5"
+    "ES5",
+    "ie9"
   ],
   "author": "Vladimir Belov <i@vovkabelov.ru>",
   "license": "MIT",
