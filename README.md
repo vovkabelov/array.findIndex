@@ -30,7 +30,7 @@ Testing in Chrome 61.0.3163 / Mac OS X 10.13.0
 See [https://jsperf.com/array-prototype-find-index-polyfill](https://jsperf.com/array-prototype-find-index-polyfill)
 
 ## Links
-[Specification](http://www.ecma-international.org/ecma-262/6.0/#sec-array.prototype.findIndex) on "Ecma International"  
+[Specification](http://www.ecma-international.org/ecma-262/6.0/#sec-array.prototype.findindex) on "Ecma International"  
 [MDN examples](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
 
 ## Copyright and license
