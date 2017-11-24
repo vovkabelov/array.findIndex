@@ -1,6 +1,6 @@
 {
   "name": "array.findindex",
-  "version": "v1.0.3",
+  "version": "v1.0.4",
   "description": "Lightweight Array.prototype.findIndex Polyfill. ES5. IE9+",
   "main": "src/array-find-index-polyfill.js",
   "scripts": {

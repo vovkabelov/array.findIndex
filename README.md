@@ -9,7 +9,7 @@ that satisfies the provided testing function. Otherwise -1 is returned.
 
 ## How It Works
 **1.** Download [Latest version](https://github.com/vovkabelov/array.findIndex/archive/master.zip) or install with bower 
-`bower install array.findIndex`  
+`bower install array.findindex`  
 **2.** Include polyfill on your web-page 
 ```html
 <script src="dist/array-find-index-polyfill.min.js"></script>
