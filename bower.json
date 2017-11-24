@@ -1,0 +1,29 @@
+{
+  "name": "array.findindex",
+  "description": "Lightweight Array.prototype.findIndex Polyfill. ES5. IE9+",
+  "main": "dist/array-find-index-polyfill.min.js",
+  "authors": [
+    "Vladimir Belov <i@vovkabelov.ru>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "array",
+    "findIndex",
+    "polyfill",
+    "js",
+    "ES6",
+    "ES5",
+    "ie9"
+  ],
+  "homepage": "https://github.com/vovkabelov/array.findIndex",
+  "ignore": [
+    ".*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "package.json",
+    "bower.json"
+  ]
+}
