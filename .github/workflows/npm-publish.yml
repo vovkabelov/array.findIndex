@@ -1,0 +1,29 @@
+name: NPM publish 🚀
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v4
+
+      - name: 'Setup Node.js v22.*'
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: 'Install dependencies (npm install) 📦...'
+        run: npm install
+
+      - name: 'Run build (npm run build) 🔧...'
+        run: npm run build
+
+      - name: 'Publish package'
+        run: npm publish
