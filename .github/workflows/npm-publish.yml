@@ -22,8 +22,5 @@ jobs:
       - name: 'Install dependencies (npm install) 📦...'
         run: npm install
 
-      - name: 'Run build (npm run build) 🔧...'
-        run: npm run build
-
       - name: 'Publish package'
         run: npm publish
